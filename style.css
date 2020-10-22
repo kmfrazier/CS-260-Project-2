@@ -1,0 +1,80 @@
+* {
+    font-family: "Comic Sans MS";
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    background: url(https://get.pxhere.com/photo/grass-plant-vine-wine-lawn-leaf-flower-wall-green-red-autumn-soil-facade-botany-climber-emerge-leaves-vines-background-vegetation-shrub-deciduous-fall-foliage-autumn-colours-fouling-wine-partner-flowering-plant-grape-crop-facade-green-land-plant-472217.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
+#header {
+    margin: auto;
+    width: 40%;
+    padding: 15px 32px;
+        border-style: solid;
+    color: black;
+    background-image: linear-gradient(to right, brown , darkgreen);
+}
+
+.title {
+    margin: auto;
+    text-align: center;
+    font-weight: 700;
+    color: black;
+
+
+}
+
+.wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+    max-width: 1080px;
+}
+
+#button {
+    
+    margin: auto;
+    width: 100px;
+    padding: 8px;
+}
+
+footer {
+    margin: auto;
+    width: 40%;
+    background-image: linear-gradient(to right, brown , darkgreen);
+    border-style: solid;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+}
+
+#plantInfo {
+    margin: .5em .5em .5em .5em;
+}
+
+.masonry {
+    background-color: black;
+}
+
+.masonry #plantInfo img {
+
+    transition: all 0.5s ease-in-out;
+    backface-visibility: hidden; 
+    /*display: inline-block;*/
+    margin-left: .5em;
+    margin-right: .5em;
+    margin-bottom: .5em;
+    margin-top: .5em;
+    width: 22%;
+    height: 22%;
+    border: 4px solid #E14D4D;
+    border-radius: 8px; 
+}
